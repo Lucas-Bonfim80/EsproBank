@@ -33,8 +33,7 @@
 
     .registre-se {
         display: flex;
-        gap: 10px;
-        margin-left: 25%;
+        justify-content: center
     }
 
     .boxLogin {
@@ -50,14 +49,14 @@
         border-radius: 0 0 30px 0;
     }
 
-    .entreNaSuaConta {
+    .criarConta {
         font-size: 25px;
         font-weight: bold;
         font-family: Montserrat;
         color: #FFFFFF;
         display: flex;
         justify-content: center;
-        margin: 105px 0 70px 0;
+        margin: 70px 0 70px 0;
     }
 
     footer {
@@ -69,6 +68,12 @@
         padding: 10px;
         border-top-left-radius: 30px;
         background-color: #020D1C;
+    }
+
+    .voltar{
+        height: 25px;
+        padding-left: 10px;
+        margin-top: 10px;
     }
 
 }
