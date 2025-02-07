@@ -1,0 +1,61 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.inputLogin {
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.botaoLogin {
+    padding: 10px 18px;
+    background-color: #007c6e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.registre-se {
+    display: flex;
+    gap: 10px;
+    margin-left: 4%;
+}
+
+@media (max-width: 940px) {
+
+    body{
+        height: 100vh;
+        margin: 0;
+        background-color: #152a4f;
+    }
+
+    .logo {
+        width: 40%;
+        margin-bottom: 30%;
+    }
+
+    .registre-se {
+        display: flex;
+        gap: 10px;
+        margin-left: 25%;
+    }
+
+    .boxLogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+}
