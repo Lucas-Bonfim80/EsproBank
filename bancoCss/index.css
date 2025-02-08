@@ -28,7 +28,7 @@
 @media (max-width: 940px) {
 
     body{
-        height: 100vh;
+        max-height: 100vh;
         margin: 0;
         background-color: #152a4f;
     }
